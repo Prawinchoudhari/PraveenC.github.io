@@ -1,0 +1,271 @@
+
+        body {
+            overflow: hidden;
+        }
+
+
+        .fullscreen {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+
+        .firstcontainer {
+            position: absolute;
+            width: 100vw;
+            
+            height: 70%;
+            left: 0px;
+            top: 0px;
+            background-color: #FFCD9E;
+            
+
+        }
+
+        #header {
+            position: absolute;
+            width: 562px;
+            height: 90px;
+            left: 136px;
+            top: 65px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 150%;
+            color: #282828;
+            margin: 0px;
+        }
+
+        .our-team {
+            position: absolute;
+            width: 495px;
+            height: 81px;
+            left: 136px;
+            top: 190px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 32px;
+            color: #484848;
+            margin: 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        .show-me {
+            position: absolute;
+            width: 227px;
+            height: 81px;
+            left: 136px;
+            top: 280px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 32px;
+            color: #282828;
+            display: flex;
+            align-items: center;
+
+        }
+
+        .email {
+            box-sizing: border-box;
+            position: absolute;
+            width: 344px;
+            height: 64px;
+            left: 136px;
+            top: 360px;
+            background: #FFFFFF;
+            border: 4px solid #000000;
+            border-radius: 8px;
+        }
+
+        .button {
+            position: absolute;
+            width: 216px;
+            height: 64px;
+            left: 496px;
+            top: 360px;
+            background: #282828;
+            border-radius: 8px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            /* text-align: center; */
+            justify-content: center;
+            color: #FFFFFF;
+        }
+
+        .free {
+            position: absolute;
+            width: 344px;
+            height: 61px;
+            left: 134px;
+            top: 400px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            display: flex;
+            align-items: center;
+            /* text-align: center; */
+            justify-content: center;
+            color: #FFFFFF
+        }
+
+
+        .footer {
+            position: absolute;
+            width: 100vw;
+            height: 30%;
+            left: 0px;
+            right: 0px;
+            top: 70%;
+            background: #282828;
+        }
+
+        .prompt {
+            position: absolute;
+            width: 216px;
+            height: 36px;
+            left: 191px;
+            top: 0px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+
+        .dweep-daily {
+            position: absolute;
+            width: 216px;
+            height: 36px;
+            left: 190px;
+            top: 35px;
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+        }
+
+        .contributors {
+            position: absolute;
+            width: 216px;
+            height: 36px;
+            left: 190px;
+            top: 73px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+
+        .data {
+            position: absolute;
+            width: 220px;
+            height: 36px;
+            left: 190px;
+            top: 109px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+
+        .contribute {
+            position: absolute;
+            width: 236px;
+            height: 36px;
+            left: 190px;
+            top: 143px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: #FFFFFF;
+        }
+
+        .io {
+            position: absolute;
+            width: 148px;
+            height: 36px;
+            left: 1099px;
+            top: 0px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            text-align: right;
+            color: #FFFFFF;
+        }
+
+        .made {
+            position: absolute;
+            width: 232px;
+            height: 36px;
+            left: 1015px;
+            top: 35px;
+            color: #FFFFFF;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            /* or 32px */
+
+            text-align: right;
+        }
+
+        .linkedin {
+            position: absolute;
+            width: 29.41px;
+            height: 27.42px;
+            left: 1179px;
+            top: 100px;
+            background-image: url("LinkedinLogo.svg");
+        }
+
+        .instagram {
+            position: absolute;
+            width: 29.41px;
+            height: 27.42px;
+            left: 1217.59px;
+            top: 100px;
+            background-image: url("InstagramLogo.svg");
+        }
+
+        .hello {
+            position: absolute;
+            width: 232px;
+            height: 36px;
+            left: 1015px;
+            top: 130px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 160%;
+            color: #FFFFFF;
+            text-align: right;
+        }
+    
